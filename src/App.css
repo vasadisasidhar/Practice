@@ -1,0 +1,206 @@
+body{
+  background-color: beige;
+  font-size-adjust:6re;
+  color: black;
+  font-size: medium;
+}
+.images img {
+  width: 300px;
+  height: 200px;
+}
+.buttonsection {
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#nature-concepts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#nature-concepts li {
+  width: 10rem;
+  text-align: center;
+}
+
+#nature-concepts li img {
+  height: 4rem;
+  width: 6rem;
+  object-fit: cover;
+}
+
+#nature-concepts li h3 {
+  margin: 0.5rem 0;
+}
+
+#nature-concepts li p {
+  font-size: 0.9rem;
+}
+
+#nature-concepts {
+  padding: 2rem;
+  border-radius: 6px;
+  background-color:white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+main {
+  width: 90%;
+  max-width: 50rem;
+  margin: auto;
+}
+main h2 {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0 0 1.5rem 0;
+  color: #a18aba;
+}
+
+
+/*----------------------------FORM SUBMIT------------------------*/
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f5f5f5; /* Optional background color */
+}
+
+.form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* Space between form fields */
+  padding: 20px;
+  background-color: #fff; /* Background color for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+input {
+  margin-top: 4px; /* Space between label and input */
+  padding: 8px;
+  border: 1px solid #ddd; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  width: 100%; /* Full width of the container */
+}
+.buttonSpace button {
+  margin-right: 10px;
+  
+}
+
+/*--------------Screen Size----------------------*/
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.screen-size {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #444;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.inputField {
+  margin-bottom: 10px; /* Space between input and button */
+}
+
+.btn-primary {
+  margin-top: 10px; /* Optional: space above the button */
+}
+
+/* NestedArray.css */
+.nested-table th,
+.nested-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.nested-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.nested-table tr:hover {
+  background-color: #ddd;
+}
+/* Add this to your CSS file */
+.centered-buttons {
+  text-align: center;
+}
+
+.centered-buttons .btn {
+  margin: 0 5px; /* Adjust spacing between buttons as needed */
+}
+
+
+.nested-table th, .nested-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Center text horizontally */
+}
+.header-section h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
