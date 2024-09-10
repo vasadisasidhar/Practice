@@ -31,6 +31,7 @@ import Dataposting from './Components/Methods/Dataposting'
 import Mainpage from './Components/Crudoperations/Mainpage'
 import { carData } from './data1'
 import Sampleevent from './Components/Crudoperations/Sampleevent'
+import Todolist from './Components/Sampleprojects/Todolist/Todolist'
 
 
 
@@ -66,13 +67,9 @@ const App = () => {
       <Tampletlitters/>
       <Fetchmethod/>
       <Dataposting/>
-      
-      
-      <Sampleevent carData = {carData}/>*/}
-
-      
-      <Mainpage/>
-      
+      <Sampleevent carData = {carData}/>
+      <Mainpage/>*/}
+      <Todolist/>
   
       
       
