@@ -1,3 +1,26 @@
+/*-----------------------------MAIN BODY PAGE---------------------------*/
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*-----------------------------------------------------------------------------------*/
+
+
+
 body{
   background-color: beige;
   font-size-adjust:6re;
@@ -104,24 +127,7 @@ input {
 /*--------------Screen Size----------------------*/
 /* App.css */
 
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-}
 
-.container {
-  text-align: center;
-  background-color: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
 h1 {
   margin-bottom: 10px;
@@ -344,6 +350,24 @@ input[type="submit"]:hover {
 .delete-button:hover {
   background: #c82333;
 }
+
+/*---------------------------CALCULATOR----------------------------*/
+
+
+
+
+input[type='text'] {
+ 
+  height: 50px; 
+  font-size: 18px; 
+  padding: 10px; 
+  border: 2px solid #007bff; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none; 
+}
+
+
 
 
 

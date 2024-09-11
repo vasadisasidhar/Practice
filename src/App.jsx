@@ -32,6 +32,7 @@ import Mainpage from './Components/Crudoperations/Mainpage'
 import { carData } from './data1'
 import Sampleevent from './Components/Crudoperations/Sampleevent'
 import Todolist from './Components/Sampleprojects/Todolist/Todolist'
+import Calculatordemo from './Components/Sampleprojects/Calculator/Calculatordemo'
 
 
 
@@ -68,8 +69,9 @@ const App = () => {
       <Fetchmethod/>
       <Dataposting/>
       <Sampleevent carData = {carData}/>
-      <Mainpage/>*/}
-      <Todolist />
+      <Mainpage/>
+      <Todolist />*/}
+      <Calculatordemo/>
   
       
       
