@@ -39,6 +39,9 @@ import Todoapp from './Components/Sampleprojects/Todoapp/Todoapp'
 import Fibonacci from './Components/Sampleprojects/Fibonacci/Fibonacci'
 import Fibo from './Components/Sampleprojects/Fibonacci/Fibo'
 import Slice from './Components/Arrays/Slice'
+import Fib from './Components/Sampleprojects/Fibonacci/Fib'
+import Homepage from './Components/Routingpages/Homepage'
+import Navbar from './Components/Routingpages/Navbar'
 
 
 
@@ -81,10 +84,10 @@ const App = () => {
       <Logicalcircuit/>
       <Spreadoperator/>
       <Todoapp/>
-      <Fibonacci/>*/}
+      <Fibonacci/>
       <Fibo/>
-      
-  
+      <Fib/>*/}
+      <Homepage/>
       
       
     </div>

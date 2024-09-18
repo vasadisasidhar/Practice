@@ -1,0 +1,25 @@
+/* Navbar styles */
+.navSection {
+    background-color: #333; /* Dark background color */
+    padding: 10px 20px; /* Padding around the navbar */
+}
+
+.navSection ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Display items in a row */
+    justify-content: space-around; /* Evenly space items */
+}
+
+.navSection li {
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding for clickable areas */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.navSection li:hover {
+    background-color: #575757; /* Darker background on hover */
+    border-radius: 4px; /* Slightly round the corners */
+}

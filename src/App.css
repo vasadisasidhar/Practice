@@ -1,5 +1,5 @@
 /*-----------------------------MAIN BODY PAGE---------------------------*/
-body {
+{/*body {
   margin: 0;
   padding: 0;
   display: flex;
@@ -16,7 +16,7 @@ body {
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+}*/}
 /*-----------------------------------------------------------------------------------*/
 
 
@@ -366,22 +366,6 @@ input[type='text'] {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   outline: none; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

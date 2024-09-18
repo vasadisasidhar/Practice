@@ -8,7 +8,7 @@ const Fibo = () => {
     const numberGiven =(e)=>{
         setNum(e.target.value)
     }
-
+    
     const sequenceGenerator =()=>{
         if (num <= 0)  return []
 
