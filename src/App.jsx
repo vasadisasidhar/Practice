@@ -33,6 +33,12 @@ import { carData } from './data1'
 import Sampleevent from './Components/Crudoperations/Sampleevent'
 import Todolist from './Components/Sampleprojects/Todolist/Todolist'
 import Calculatordemo from './Components/Sampleprojects/Calculator/Calculatordemo'
+import Logicalcircuit from './Components/Circuit/Logicalcircuit'
+import Spreadoperator from './Components/Circuit/Spreadoperator'
+import Todoapp from './Components/Sampleprojects/Todoapp/Todoapp'
+import Fibonacci from './Components/Sampleprojects/Fibonacci/Fibonacci'
+import Fibo from './Components/Sampleprojects/Fibonacci/Fibo'
+import Slice from './Components/Arrays/Slice'
 
 
 
@@ -70,8 +76,14 @@ const App = () => {
       <Dataposting/>
       <Sampleevent carData = {carData}/>
       <Mainpage/>
-      <Todolist />*/}
+      <Todolist />
       <Calculatordemo/>
+      <Logicalcircuit/>
+      <Spreadoperator/>
+      <Todoapp/>
+      <Fibonacci/>*/}
+      <Fibo/>
+      
   
       
       
