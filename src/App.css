@@ -368,6 +368,14 @@ input[type='text'] {
 }
 
 
+/*-------------------------------------TOTAL BODY----------------------------*/
+/* Global styles (e.g., in App.css or a separate CSS file) */
+body {
+  background-color: #fafaf8; /* Change this to your desired background color */
+  color: #333; /* Change this to your desired text color */
+  font-family: Arial, sans-serif; /* Optional: change the font */
+}
+/*---------------------------------------------------------------------------------*/
 
 
 

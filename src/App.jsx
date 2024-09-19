@@ -42,6 +42,7 @@ import Slice from './Components/Arrays/Slice'
 import Fib from './Components/Sampleprojects/Fibonacci/Fib'
 import Homepage from './Components/Routingpages/Homepage'
 import Navbar from './Components/Routingpages/Navbar'
+import Mainhomepage from './Components/Routingsites/Mainhomepage'
 
 
 
@@ -86,8 +87,9 @@ const App = () => {
       <Todoapp/>
       <Fibonacci/>
       <Fibo/>
-      <Fib/>*/}
-      <Homepage/>
+      <Fib/>
+      <Homepage/>*/}
+      <Mainhomepage/>
       
       
     </div>

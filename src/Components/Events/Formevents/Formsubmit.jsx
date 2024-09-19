@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 
 const Formsubmit = () => {
-
-
     const [name,setName] = useState('')
     const [number,setNumber] = useState('')
     const [mail,setMail] = useState('')

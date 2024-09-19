@@ -1,0 +1,41 @@
+.navaSection {
+    background-color: #282c34; /* Dark background for the nav bar */
+    padding: 20px; /* Padding for the nav bar */
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points */
+    display: flex; /* Horizontal layout */
+    justify-content: center; /* Center the buttons */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  
+
+  .btn {
+    padding: 10px 20px; /* Padding for the buttons */
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Cursor indicates clickable */
+    transition: background-color 0.3s; /* Smooth background transition */
+  }
+
+  .navaSection {
+    background-color: #282c34; /* Dark background for the nav bar */
+    padding: 20px; /* Padding for the nav bar */
+  }
+  
+  .btn {
+    margin: 0 10px;         /* Adds spacing between buttons */
+  }
+  
+  .btn:hover {
+    background-color: #005fb3; /* Darker shade on hover */
+  }
+
+
+
+

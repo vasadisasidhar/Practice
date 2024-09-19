@@ -12,7 +12,7 @@ const Navbar = () => {
 
             <Link to = "/3"><li>Third Page</li></Link>
 
-            <Link to = "4"><li>Fourth Page</li></Link>
+            <Link to = "/4"><li>Fourth Page</li></Link>
         </ul> 
     </div>
   )
