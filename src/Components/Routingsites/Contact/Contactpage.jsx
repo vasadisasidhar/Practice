@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ContactPage.css';
+import { CONTACT_DETAILS } from './Data';
+import { PropsSending } from './PropsSending';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({name: '',email: '',num: '',msg: ''});
@@ -25,6 +27,7 @@ const ContactPage = () => {
   };
 
   return (
+    <mainSection>
     <div className='contactForm'>
       <h1>Contact Us</h1>
       <label>
@@ -65,6 +68,22 @@ const ContactPage = () => {
         <h3>Fax: 08922-224945</h3>
       </div>
     </div>
+    <div>
+      <main>
+        
+      </main>
+    </div>
+
+    
+    <contact id ="contactSection" >
+    <ul>
+      {CONTACT_DETAILS.map((data, index) => (
+        <PropsSending key={index} {...data} />
+      ))}
+    </ul>
+    </contact>
+
+</mainSection>
   );
 };
 

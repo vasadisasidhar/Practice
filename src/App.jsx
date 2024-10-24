@@ -43,6 +43,11 @@ import Fib from './Components/Sampleprojects/Fibonacci/Fib'
 import Homepage from './Components/Routingpages/Homepage'
 import Navbar from './Components/Routingpages/Navbar'
 import Mainhomepage from './Components/Routingsites/Mainhomepage'
+import Usecontext from './Components/Usecontext/Usecontext'
+import Firstcity from './Components/Usecontext/Firstcity'
+import Fifthcity from './Components/Usecontext/Fifthcity'
+import Fourthcity from './Components/Usecontext/Fourthcity'
+import Arraycheck from './Components/Arrays/Arraycheck'
 
 
 
@@ -62,6 +67,7 @@ const App = () => {
       <Usestates/>
       <Propimage1/>
       <Arrays/>
+      <Arraycheck/>
       <Ternarybasic/>
       <Clickevent/><br></br>
       <Doubleclick/><br></br>
@@ -88,8 +94,13 @@ const App = () => {
       <Fibonacci/>
       <Fibo/>
       <Fib/>
-      <Homepage/>*/}
+      <Homepage/>
+      <Usecontext/>
       <Mainhomepage/>
+      <Formsubmit/>
+      <Sampleevent carData = {carData}/>*/}
+      
+     
       
       
     </div>

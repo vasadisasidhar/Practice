@@ -29,6 +29,8 @@ const Navagationbar = () => {
           <Link to="/home"><button type="button" className="btn btn-primary">Home</button></Link>
           <Link to="/cars"><button type="button" className="btn btn-primary">Cars</button></Link>
           <Link to="/bikes"><button type="button" className="btn btn-primary">Bikes</button></Link>
+
+          
           <Link to="/contact"><button type="button" className="btn btn-primary">Contact Us</button></Link>
         </ul>
       </div>
@@ -41,7 +43,7 @@ const Navagationbar = () => {
         <div className="signin" onClick={handleAuthToggle}>
           {isLoggedIn ? "Logout" : "Signin / Signup"}
         </div>
-        <div className="cart">Cart</div>
+        <div className="cart">(Add +91/0 before calling) <h1>9492724945</h1></div>
       </div>
     </div>
   );
