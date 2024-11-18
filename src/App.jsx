@@ -14,6 +14,7 @@ import Basicusestate from './Components/Usestate/Basicusestate'
 import Usestates from './Components/Usestate/Usestates'
 import Propimage1 from './Components/Props/Propswithimages/Propimage1'
 import Arrays from './Components/Arrays/Arrays'
+import Arraytest from './Components/Arrays/Arraytest'
 import Ternarybasic from './Components/Ternaryoperator/Ternarybasic'
 import Clickevent from './Components/Events/Mouseevents/Clickevent'
 import Doubleclick from './Components/Events/Mouseevents/Doubleclick'
@@ -48,6 +49,9 @@ import Firstcity from './Components/Usecontext/Firstcity'
 import Fifthcity from './Components/Usecontext/Fifthcity'
 import Fourthcity from './Components/Usecontext/Fourthcity'
 import Arraycheck from './Components/Arrays/Arraycheck'
+import NumberAddition from './Components/Practiceprojects/NumberAddition'
+import Fiboprac from './Components/Practiceprojects/Fiboprac'
+
 
 
 
@@ -55,7 +59,7 @@ import Arraycheck from './Components/Arrays/Arraycheck'
 const App = () => {
   return (
     <div>
-     { /*<Images/>
+      {/*<Images/>
       <Usestate/>
       <Multiplestate/>
       <Nested/>
@@ -67,6 +71,7 @@ const App = () => {
       <Usestates/>
       <Propimage1/>
       <Arrays/>
+      <Arraytest/> 
       <Arraycheck/>
       <Ternarybasic/>
       <Clickevent/><br></br>
@@ -92,17 +97,17 @@ const App = () => {
       <Spreadoperator/>
       <Todoapp/>
       <Fibonacci/>
-      <Fibo/>
+      
       <Fib/>
       <Homepage/>
       <Usecontext/>
       <Mainhomepage/>
       <Formsubmit/>
-      <Sampleevent carData = {carData}/>*/}
-      
-     
-      
-      
+      <Sampleevent carData = {carData}/>
+      <NumberAddition/>*/}
+      <Fibo/>
+      <Fiboprac/>
+        
     </div>
   )
 }
